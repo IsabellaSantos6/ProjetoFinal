@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design de imóveis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="imagem-navbar">
+                <img src="imagens/logo-inicio.png" alt="">
+            </div>
+            <div class="ul">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#arquitetura">Arquitetura</a></li>
+                    <li><a href="#design">Design de Interiores</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#arquitetura">Arquitetura</a>
+                        <a href="#design">Design de Interiores</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#galeria">Galeria</a>
+                        <a href="#precos">Preços</a>
+                        <a href="#equipe">Equipe</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="apresentacao" id="home">
+            <div class="background"></div>
+            <div class="texto">
+                <div class="textos1">
+                    <h1>Arquitetura e Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias explicabo aspernatur voluptas, obcaecati distinctio excepturi labore! Tenetur, deleniti, architecto corrupti odio deserunt quis id nobis placeat, omnis rerum at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur saepe corporis, fuga quas maiores, ipsam voluptates accusantium, voluptatem iusto minus dolorem numquam architecto officia placeat unde tenetur nulla ipsum consequatur!</p>
+                    <button><a href="#sobre">Saiba mais</a></button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="modal">
+            <div id="fade" class="hide"></div>
+            <div id="modal" class="hide">
+                <div class="titulo">
+                    <h3>Cadastre-se e entre em contato com um dos atendentes da nossa equipe</h3>
+                </div>
+                <div class="div-input">
+                    <input type="text" name="" id="nome" class="input" placeholder="Nome Completo">
+            
+                </div>
+                <div  class="div-input">
+                    <input type="text" name="" id="e-mail" class="input" placeholder="E-mail">
+                </div>
+                <div  class="div-input">
+                    <input type="text" name="" id="numero" class="input" placeholder="Whatsapp com DDD">
+                </div>
+                <div>
+                   <button id="concluir"> Concluir </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="caracteristicas campoMenor">
+            <div class="campoInformacoes">
+                <img src="imagens/planejamento.png" alt="">
+                <h3>Planejamento</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área<p>
+            </div>
+            <div class="campoInformacoes">
+                <img src="imagens/atendimento.png" alt="">
+                <h3>Atendimento</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área<p>
+            </div>
+            <div class="campoInformacoes">
+                <img src="imagens/projeto.png" alt="">
+                <h3>Projeto</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área<p>
+            </div>
+        </section>
+
+        <section class="arquitetura" id="arquitetura">
+            <div class="tela telaEsquerda">
+                <h2>Arquitetura</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, quisquam debitis ducimus eum perspiciatis commodi maxime incidunt perferendis soluta culpa aperiam expedita, similique rem porro reprehenderit error saepe reiciendis vel!</p>
+            </div>
+            <div class="module parallax parallaxDireito"></div>
+        </section>
+
+        <section class="designInteriores" id="design">
+            <div class="module parallax parallaxEsquerdo"></div>
+            <div class="tela telaDireita">
+                <h2>Design de Interiores</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore est officia obcaecati vero dicta, necessitatibus ea vitae quasi modi esse odio consequatur, labore consequuntur possimus laboriosam nesciunt eos quis suscipit?</p>
+            </div>
+        </section>
+
+        <section class="sobreNos" id="sobre"> 
+            <div class="textos">
+                <h2>Sobre nós</h2>
+                <div class="textos2">
+                    <h3>Conheça mais sobre a empresa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis in numquam ad, placeat molestias sit nesciunt. Cumque odit autem ipsa, fugit nulla dolores, laudantium id, enim earum eveniet est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus corporis velit nisi numquam vitae blanditiis debitis, nemo ullam rem? Enim nihil illum fugit velit nemo commodi libero hic tempore!</p>
+                    <div class="dropdowns">
+                        <div>
+                            <div class="dropdown-btn">
+                                <p>Lorem ipsum dolor sit amet.</h3>
+                                <p>	&#43;</p>
+                            </div>
+                            <div class="dropdown-container">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing equipe. Deserunt voluptas soluta quo nisi nulla esse hic magni ipsam! Fuga commodi voluptatibus explicabo, repellat iste expedita et earum deserunt inventore sequi!</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown-btn">
+                                <p>Lorem ipsum dolor sit amet.</h3>
+                                <p>	&#43;</p>
+                            </div>
+                            <div class="dropdown-container">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas soluta quo nisi nulla esse hic magni ipsam! Fuga commodi voluptatibus explicabo, repellat iste expedita et earum deserunt inventore sequi!</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown-btn">
+                                <p>Lorem ipsum dolor sit amet.</h3>
+                                <p>	&#43;</p>
+                            </div>
+                            <div class="dropdown-container">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas soluta quo nisi nulla esse hic magni ipsam! Fuga commodi voluptatibus explicabo, repellat iste expedita et earum deserunt inventore sequi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carrosseis"> 
+                <div class="carrossel carrossel1">
+                    <div id="carrossel1">
+                        <div class="slide">
+                            <img src="imagens/carrossel1-1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="imagens/carrossel1-2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="imagens/carrossel1-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="seta seta-esquerda" id="seta-esquerda"> <img src="imagens/esquerda.png" alt=""></div>
+                <div class="seta seta-direita" id="seta-direita"> <img src="imagens/direita.png" alt=""></div>
+            </div>
+        </section>
+        
+
+        <section class="estagios campoMenor">
+            <div class="campoInformacoes">
+                <img src="imagens/cadastro.png" alt="">
+                <h3>Cadastre-se</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área</p>
+            </div>
+            <div class="campoInformacoes">
+                <img src="imagens/escolha.png" alt="">
+                <h3>Escolha</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área</p>
+            </div>
+            <div class="campoInformacoes">
+                <img src="imagens/contato.png" alt="">
+                <h3>Contate-nos</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área</p>
+            </div>
+            <div class="campoInformacoes">
+                <img src="imagens/pagamento.png" alt="">
+                <h3>Efetue o pagamento</h3>
+                <p>Projetado com a ajuda e contribuição de especialistas na área</p>
+            </div>
+        </section>
+
+        <section class="modelos" id="galeria">
+            <div class="carrossel carrossel2">
+                <div id="carrossel2">
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo1">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo2">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo3">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo4">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo5">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo6">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="cards-carrossel">
+                            <div class="imagem-modelo imagem-modelo7">
+
+                            </div>
+                            <div class="textos-modelo">
+                                <h3>Nome do modelo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor officia, debitis voluptatum iure dignissimos unde nihil ipsa beatae officiis iste quia accusantium quisquam ad doloremque modi vero praesentium. Ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+        </section>
+
+        <section class="precos" id="precos">
+            <div class="listas explicacao">
+                <h3>Escolha o modelo</h3>
+                <h4>Preço</h4>
+                <ul>
+                    <li>Área da casa</li>
+                    <li>Área da varanda</li>
+                    <li>Área da garagem</li>
+                    <li>Numero de cômodos</li>
+                </ul>
+                <button><a href="#cadastro">Contate-nos</a> </button>
+            </div>
+            <div class="cards">
+                <div class="listas card card1" id="card1" data-anime="right">
+                    <h3>Modelo da casa</h3>
+                    <h4>$99,999</h4>
+                    <ul>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>xx</li>
+                    </ul>
+                </div>
+                <div class="listas card card2" id="" data-anime="right">
+                    <h3>Modelo da casa</h3>
+                    <h4>$99,999</h4>
+                    <ul>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>xx</li>
+                    </ul>
+                </div>
+                <div class="listas card card3" data-anime="right">
+                    <h3>Modelo da casa</h3>
+                    <h4>$99,999</h4>
+                    <ul>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>00m²</li>
+                        <li>xx</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="equipe" id="equipe">
+            <h2>Equipe</h2>
+            <div class="equipe-cards">
+                <div class="pessoa pessoa1">
+                    <div class="imagem-pessoa imagem-pessoa1"></div>
+                    <h3>Nome</h3>
+                    <h4>Função</h4>
+                    <p>+1 (734) 123-4567 <br> jane.doe@example.com</p>
+                    <div class="redesSociais">
+                        <a href=""><img src="imagens/instagram.png" alt=""></a>
+                        <a href=""><img src="imagens/facebook.png" alt=""></a>
+                        <a href=""><img src="imagens/whatsapp.png" alt=""></a>
+                        <a href=""><img src="imagens/gmail.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="pessoa pessoa2">
+                    <div class="imagem-pessoa imagem-pessoa2"></div>
+                    <h3>Nome</h3>
+                    <h4>Função</h4>
+                    <p>+1 (734) 123-4567 <br> jane.doe@example.com</p>
+                    <div class="redesSociais">
+                        <a href=""><img src="imagens/instagram.png" alt=""></a>
+                        <a href=""><img src="imagens/facebook.png" alt=""></a>
+                        <a href=""><img src="imagens/whatsapp.png" alt=""></a>
+                        <a href=""><img src="imagens/gmail.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="pessoa pessoa3">
+                    <div class="imagem-pessoa imagem-pessoa3"></div>
+                    <h3>Nome</h3>
+                    <h4>Função</h4>
+                    <p>+1 (734) 123-4567 <br> jane.doe@example.com</p>
+                    <div class="redesSociais">
+                        <a href=""><img src="imagens/instagram.png" alt=""></a>
+                        <a href=""><img src="imagens/facebook.png" alt=""></a>
+                        <a href=""><img src="imagens/whatsapp.png" alt=""></a>
+                        <a href=""><img src="imagens/gmail.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="pessoa pessoa4">
+                    <div class="imagem-pessoa imagem-pessoa4"></div>
+                    <h3>Nome</h3>
+                    <h4>Função</h4>
+                    <p>+1 (734) 123-4567 <br> jane.doe@example.com</p>
+                    <div class="redesSociais">
+                        <a href=""><img src="imagens/instagram.png" alt=""></a>
+                        <a href=""><img src="imagens/facebook.png" alt=""></a>
+                        <a href=""><img src="imagens/whatsapp.png" alt=""></a>
+                        <a href=""><img src="imagens/gmail.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contatos">
+            <div class="endereco-contato">
+                <div class="endereco">
+                    <h3>Endereço</h3>
+                    <p>Your Company 4877 Spruce Drive West Newton, PA 15089</p>
+                    <p>+1 (734) 123-4567 <br> jane.doe@example.com</p>
+                </div>
+                <div class="social">
+                    <h3>Mídias</h3>
+                    <div class="icones">
+                        <div data-anime="top">
+                            <div class="borda">
+                                <div class="bordaConteudo">
+                                    <a href=""><img src="imagens/twitter.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-anime="top">
+                            <div class="borda">
+                                <div class="bordaConteudo">
+                                    <a href=""><img src="imagens/instagram.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-anime="top">
+                            <div class="borda">
+                                <div class="bordaConteudo">
+                                    <a href=""><img src="imagens/facebook.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-anime="top">
+                            <div class="borda">
+                                <div class="bordaConteudo">
+                                    <a href=""><img src="imagens/whatsapp.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-anime="top">
+                            <div class="borda">
+                                <div class="bordaConteudo">
+                                    <a href=""><img src="imagens/gmail.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div class="mapa">
+                <h3>Mapa</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10858.335647397664!2d-47.93876290577839!3d-15.803881023085472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a316b1216850d%3A0x8555bbefaa3a2453!2sNathalia%20Lima%20Arquitetura!5e0!3m2!1spt-BR!2sbr!4v1688737011446!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="cadastroFim" id="cadastro">
+            <div class="background-footer">
+                <div class="topo">
+                    <a href="#home"><img src="imagens/logo-final.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut natus atque dignissimos harum culpa saepe, sequi adipisci quasi maxime modi iusto dicta fugiat repellat neque illum praesentium magnam ratione quam!</p>
+                    <p>+1 (734) 123-4567 <br> hello@archits.com</p>
+    
+                    <button id="cadastre-se">Cadastre-se</button>
+                </div>
+                <div class="fim">
+                    <h2>Informações Bônus</h2>
+                    <div>
+                        <h3>XX</h3>
+                        <p>Projetos finalizados</p>
+                    </div>
+                    <div>
+                        <h3>XX</h3>
+                        <p>Funcionários</p>
+                    </div>
+                    <div>
+                        <h3>XX</h3>
+                        <p>Clientes satisfeitos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
